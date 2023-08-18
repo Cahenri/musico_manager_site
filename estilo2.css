@@ -1,0 +1,233 @@
+.menu {
+	background-color: #161d34;
+}
+
+.menuprincipal a {
+	color: #eeeeee;
+}
+
+.menuprincipal a:hover {
+	color: #000000;
+}
+
+.fundo {
+	background-color: #000000;
+	padding: 20px;
+	opacity: 0.8;
+	border-radius: 20px;
+}
+
+.pasta {
+	color: #161d34;
+}
+
+.featurette-heading {
+	color: #c32e58;
+}
+
+.titulocifra {
+	color: #c32e58;
+}
+
+.botao {
+	background-color: #c32e58;
+	color: #ffffff;
+	border: solid 1px #c32e58;
+}
+
+.botao:hover {
+	background-color: #ffffff;
+	color: #c32e58;
+	border: solid 1px #c32e58;
+}
+
+.cifra .notas {
+	color: #c32e58;
+	font-weight: bold;
+
+}
+
+.btnmodal {
+	background-color: #161d34;
+	color: #ffffff;
+	margin: 7px;
+}
+
+#conteudoprincipal {
+	width: 100%;
+	height: 100%;
+	background-image: url(imagens/Jovens2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.divmain {
+	background-color: #000000;
+	padding: 1rem;
+	opacity: 0.7;
+	border-radius: 18px;
+}
+
+.cardinflama {
+	width: 400px;
+	height: 400px;
+	background-image: url(imagens/inflama.webp);
+	background-size: cover;
+}
+
+.encheme {
+	width: 400px;
+	height: 400px;
+	background-image: url(imagens/encheme.webp);
+	background-size: cover;
+}
+
+.atos2 {
+	width: 400px;
+	height: 400px;
+	background-image: url(imagens/atos2.jpg);
+	background-size: cover;
+}
+
+.vento {
+	width: 400px;
+	height: 400px;
+	background-image: url(imagens/vento.jpg);
+	background-size: cover;
+}
+
+.yahweh {
+	width: 400px;
+	height: 400px;
+	background-image: url(imagens/yahweh.jpg);
+	background-size: cover;
+}
+
+.youtubebtn, .spotifybtn, .cifrabtn {
+	background-color: #161d34;
+	color: #ffffff;
+	border-radius: 10px;
+	border: solid 1px #161d34;
+}
+
+.youtubebtn:hover {
+	background-color: red;
+	color: #ffffff;
+	border-radius: 10px;
+	border: solid 1px #ffffff;
+	box-shadow: 0px 0px 20px rgb(255,0,0);
+}
+
+.spotifybtn:hover {
+	background-color: #01DF01;
+	color: #ffffff;
+	border-radius: 10px;
+	border: solid 1px #ffffff;
+	box-shadow: 0px 0px 20px rgb(1,223,1);
+}
+
+.cifrabtn:hover {
+	background-color: #c32e58;
+	color: #ffffff;
+	border-radius: 10px;
+	border: solid 1px #ffffff;
+	box-shadow: 0px 0px 20px rgb(195,46,88);
+}
+
+.scrollview {
+	overflow-y: hidden;
+}
+
+.criancas {
+	width: 500px;
+	height: 400px;
+	margin-right: 1em;
+	background-image: url(imagens/kids.jpg);
+	background-size: cover;
+}
+
+.adolescentes {
+	width: 500px;
+	height: 400px;
+	margin-right: 1em;
+	background-image: url(imagens/teens.jpg);
+	background-size: cover;
+}
+
+.jovens {
+	width: 500px;
+	height: 400px;
+	margin-right: 1em;
+	background-image: url(imagens/Jovens.jpg);
+	background-size: cover;
+}
+
+.irmas {
+	width: 500px;
+	height: 400px;
+	margin-right: 1em;
+	background-image: url(imagens/irmãs.jpg);
+	background-size: cover;
+}
+
+.coral {
+	width: 500px;
+	margin-right:;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.bg-img {
+  		width: 100%;
+  		height: 100%;
+  		background-size: cover;
+	}
+	.cardinflama {
+		width: 330px;
+		height: 400px;
+	}
+
+	.encheme {
+		width: 330px;
+		height: 400px;
+	}
+
+	.atos2 {
+		width: 330px;
+		height: 400px;
+	}
+
+	.vento {
+		width: 330px;
+		height: 400px;
+	}
+
+	.yahweh {
+		width: 330px;
+		height: 400px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
